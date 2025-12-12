@@ -13,10 +13,15 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
 
+    <Label fx:id="welcomeText" text="Hello!" />
+
+    <!-- Поле для ввода имени -->
     <TextField fx:id="searchField" promptText="Введите имя студента для поиска..." />
 
+    <!-- Кнопка поиска -->
     <Button fx:id="searchButton" text="Найти студента" />
 
+    <!-- Список результатов -->
     <Label text="Результаты поиска:" />
     <ListView fx:id="resultsListView" prefHeight="200.0" prefWidth="400.0" />
 
